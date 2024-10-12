@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.app.goo.gl/8V7WLWirqNMzTqho8");
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 50px;
+}
+
+#nameInput {
+    margin-top: 30px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
+
+.error {
+    color: red;
+    display: none;
+}
+
+.stats-card {
+    background-color: #1e2125;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 30px auto;
+    display: none;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
